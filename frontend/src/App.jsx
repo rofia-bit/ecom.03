@@ -5,7 +5,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<UserLayout />} />
+        <Route path="/" element={<UserLayout />}>
+        {/** User Layout */}
+        </Route>
+        <Route>{/*Admin Layout */}</Route>
+      
       </Routes>
     </BrowserRouter>
   );
