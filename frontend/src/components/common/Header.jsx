@@ -1,14 +1,17 @@
 import React from 'react'
 import { Topbar } from '../Layout/Topbar'
+import { Navbar } from './NavBar'
+
 
 const Header = () => {
   return (
-    <div>
+    <header>
         {/*Topbar*/}
         <Topbar />
         {/*navbar*/}
+        <Navbar />
         {/*Cart Drawer*/}
-    </div>
+    </header>
   )
 }
 
