@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {HiOutlineUser, HiOutlineShoppingCart, HiBars3} from "react-icons/hi2";
+import {HiOutlineUser, HiOutlineShoppingCart, HiBars3, HiBars3BottomRight} from "react-icons/hi2";
 
 
 const NavBar = () => {
@@ -47,6 +47,9 @@ const NavBar = () => {
             {/* search */}
             <div className='hidden md:block'>
                 <input type="text" placeholder="Search" className="border border-gray-300 rounded-md py-2 px-4" />
+                <button>
+                    <HiBars3BottomRight className="h-6 w-6 text-gray-700"></HiBars3BottomRight>
+                </button>
             </div>
         </div>
         </nav>
